@@ -1,0 +1,24 @@
+@use "../_abstract/variables" as *;
+
+.btn,
+.btn:visited {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background-color: $primary-1;
+  cursor: pointer;
+
+  & .btn-icon {
+    margin-right: 20px;
+  }
+
+  & .btn-text {
+    font-family: $font-family-1;
+    font-weight: $fw-500;
+    color: $natural-3;
+  }
+}

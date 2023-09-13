@@ -1,0 +1,80 @@
+// =-=-=-=-=-= font =-=-=-=-=-=
+
+// family
+$font-family-1: "Montserrat", sans-serif;
+$font-family-2: "Fraunces", serif;
+
+// size
+$fs-1: 14px;
+$fs-2: 32px;
+
+// weight
+$fw-500: 500;
+$fw-700: 700;
+
+// =-=-=-=-=-= color =-=-=-=-=-=
+
+// Primary
+
+$primary-1: hsl(158, 36%, 37%);
+$primary-2: hsl(30, 38%, 92%);
+
+// Neutral
+
+$natural-1: hsl(212, 21%, 14%);
+$natural-2: hsl(228, 12%, 48%);
+$natural-3: hsl(0, 0%, 100%);
+
+// =-=-=-=-=-= breakpoint =-=-=-=-=-=
+
+// No needed
+
+// Maps
+
+$default-colors: (
+  "clr-dark-cyan": $primary-1,
+  "clr-crimson": $primary-2,
+  "clr-dark-blue": $natural-1,
+  "clr-dark-grayish": $natural-2,
+  "clr-white": $natural-3,
+) !default;
+
+$default-background: (
+  "bg-dark-cyan": $primary-1,
+  "bg-crimson": $primary-2,
+  "bg-dark-blue": $natural-1,
+  "bg-dark-grayish": $natural-2,
+  "bg-white": $natural-3,
+) !default;
+
+$default-fontSize: (
+  "fs-1": $fs-1,
+  "fs-2": $fs-2,
+) !default;
+
+$default-fontWeight: (
+  "fw-500": $fw-500,
+  "fw-700": $fw-700,
+) !default;
+
+$default-justify-box: (
+  "justify-baseline": baseline,
+  "justify-start": flex-start,
+  "justify-end": flex-end,
+  "justify-between": space-between,
+  "justify-evenly": space-evenly,
+  "justify-around": space-around,
+  "justify-center": center,
+) !default;
+
+$default-align-box: (
+  "align-baseline": baseline,
+  "align-start": flex-start,
+  "align-end": flex-end,
+  "align-center": center,
+) !default;
+
+$default-direction-box: (
+  "f-direction-row": row,
+  "f-direction-column": column,
+) !default;

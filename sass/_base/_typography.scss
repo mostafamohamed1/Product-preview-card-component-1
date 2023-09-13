@@ -1,0 +1,25 @@
+@use "../_abstract/variables" as *;
+
+.type {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 4.6px;
+  line-height: 1;
+}
+
+.heading-1 {
+  font-family: $font-family-2;
+  font-size: $fs-2;
+  font-weight: $fw-700;
+}
+
+.description {
+  line-height: 1.6;
+}
+
+.new-price {
+  font-size: $fs-2;
+  font-weight: $fw-700;
+  font-family: $font-family-2;
+  text-decoration: none;
+}

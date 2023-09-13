@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body
+    class="w-full min-h-full | p-inline-10 | d-flex justify-center align-center | bg-crimson"
+  >
+    <main
+      class="card | max-w-600 min-h-450 | d-flex f-direction-row-md f-direction-column | bg-white | br-10 | overflow-hidden"
+    >
+      <div class="card-img">
+        <picture>
+          <source
+            srcset="./images/image-product-desktop.jpg"
+            media="(min-width: 600px)"
+          />
+          <img src="./images/image-product-mobile.jpg" alt="Product Perfume" />
+        </picture>
+      </div>
+
+      <div class="card-details | p-32">
+        <span class="type | mb-20 | clr-dark-grayish">Perfume</span>
+        <h1 class="heading-1 | mb-20 | clr-dark-blue">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="description | mb-30 | clr-dark-grayish">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+
+        <div class="price | mb-30 | d-flex align-center justify-start">
+          <ins class="new-price | mr-20 | clr-dark-cyan">$149.99</ins>
+          <del class="old-price | clr-dark-grayish">$169.99</del>
+        </div>
+
+        <button class="btn btn-cart">
+          <img src="./images/icon-cart.svg" alt="Cart" class="btn-icon" />
+          <span class="btn-text">Add to Cart</span>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

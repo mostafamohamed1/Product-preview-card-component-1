@@ -1,0 +1,11 @@
+@use "../_abstract/mixins" as *;
+
+// Card
+.card {
+  & > * {
+    @include breakpoint {
+      width: calc(100% / 2);
+    }
+    width: 100%;
+  }
+}
