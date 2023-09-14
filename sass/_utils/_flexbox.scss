@@ -23,9 +23,9 @@
   }
 }
 
-@each $prop, $val in $default-direction-box {
-  .#{$prop}-md {
-    @include breakpoint {
+@include breakpoint {
+  @each $prop, $val in $default-direction-box {
+    .#{$prop}-md {
       flex-direction: $val;
     }
   }
